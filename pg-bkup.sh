@@ -2,7 +2,7 @@
 
 DATE=`date +%Y%m%d`
 DATE2=`date --date '2 weeks ago' '+%Y%m%d'`
-DIR="/mnt/`/bin/hostname`/pgqsql"
+DIR="/mnt/`/bin/hostname`/pgsql"
 PG=`/usr/bin/which psql`
 PGD=`/usr/bin/which pg_dump`
 
