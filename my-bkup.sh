@@ -18,3 +18,7 @@ for A in `$MY -u root -e 'show databases \G'  | grep Database | awk '{print $2}'
 $MYD -u root --all-databases > $DIR/my-dumpall_$DATE.sql.gz
 
 rm -rf $DIR/*_$DATE2.sql.gz
+
+
+
+echo
